@@ -1,3 +1,4 @@
+import { FaRegEnvelope } from "react-icons/fa"
 
 const Contact = () => {
   return (
@@ -5,24 +6,30 @@ const Contact = () => {
     <h4 className="sm:text-4xl mb-10 text-3xl font-semibold font-custom text-center uppercase tracking-[3px]">
            Get In Touch</h4>
     <div className="flex flex-col sm:flex-row text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-    <div className="bg-slate-400/10 mb-10 rounded-lg p-10">
+    <div className="bg-slate-400/10 mb-10 rounded-lg p-10 sm:px-40 ">
       <div className="mb-5">
-        <p className="font-bold font-custom"> Physical address:</p>
+        <p className="font-bold font-custom"> Want to Visit us :</p>
         <p className="sm:ml-16 font-custom">Jogoo House B</p>
         <p className="sm:ml-16 font-custom">6th Floor - Room 605</p>
         <p className="sm:ml-16 font-custom">NAIROBI</p>
       </div>
       <div className="mb-5">
-      <p className="font-bold font-custom"> Postal address:</p>
+      <p className="font-bold font-custom"> Want to Write to us :</p>
         <p className="sm:ml-16 font-custom">The Executive Secretary</p>
         <p className="sm:ml-16 font-custom">P.O Box 43343 - 00100</p>
         <p className="sm:ml-16 font-custom">NAIROBI</p>
       </div>
+      <div className="mb-5">
+      <p className="font-bold font-custom">Want to Call us :</p>
+        <p className="font-custom sm:ml-16"><a href="+2540202212463">+254 (0)20 2212463</a></p>
+        <p className="font-custom sm:ml-16"><a href="+2540203318581">+254 (0)20 3318581</a></p>
+      </div>
       <div>
-        <p className="font-custom"><span className="font-bold"> Call :</span> <a href="+2540202212463">+254 (0)20 2212463</a></p>
-        <p className="font-custom"><span className="font-bold"> Call :</span> <a href="+2540203318581">+254 (0)20 3318581</a></p>
+        <p className="font-custom flex flex-row"><span className="font-bold mr-5">Want to Email Us :</span>
+        <a href="mailto:email@example.com"><FaRegEnvelope size={30} /></a></p>
       </div>
     </div>
+   {/*
     <div className="flex flex-col space-y-10 mb-8">
       <form className="flex flex-col space-y-5 w-fit mx-auto">
         <div className="flex flex-col sm:flex-row sm:space-x-2 space-y-5">
@@ -35,6 +42,7 @@ const Contact = () => {
         <button type="submit" className="bg-[#0c5d28] py-5 px-10 rounded-md text-black font-bold font-custom">Send</button>
       </form>
     </div>
+    */}
 
     </div>
     </div>

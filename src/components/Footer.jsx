@@ -15,7 +15,7 @@ const Footer = () => {
       <div className=" bg-[#733612] flex flex-col sm:flex-row justify-between items-center">
         
         <div className="mb-4 mt-4 sm:ml-28 sm:mb-4">
-          <Image src="/Logo_Black.png" alt="KMF Logo" width={200} height={120} />
+          <Image src="/Logo_White.png" alt="KMF Logo" width={200} height={120} />
         </div>
 
       
