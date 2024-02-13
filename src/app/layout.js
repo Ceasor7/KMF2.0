@@ -1,12 +1,10 @@
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 
 
 export const metadata = {
   title: "Kenya Music Festival",
-  description: "Welcome to Kenya music festival website",
+  description: "Welcome to the Kenya music festival website",
 };
 
 export default function RootLayout({ children }) {
