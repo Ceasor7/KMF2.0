@@ -27,7 +27,7 @@ const Home = () => {
       <PerformanceVenue />
       </section>
       <section className='py-8 '>
-      <InfiniteSlider />
+      {/* <InfiniteSlider /> */}
       </section>
       {/* <div>
       <Link href="/contact" className='flex flex-row items-center justify-center space-x-2 sm:hidden'>
