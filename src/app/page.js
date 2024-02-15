@@ -11,7 +11,7 @@ import ImageSlider from '@/components/ImageSlider'
 
 const Home = () => {
   return (
-    <div className='bg-white'>
+    <div className='bg-[#FAF9F6]'>
       <Navbar/>
       <section id='hero'>
         <Hero />

@@ -10,7 +10,7 @@ import Challenges from "../sections/Challenges";
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col bg-white pt-32">
+    <div className="flex flex-col bg-[#fffaf3] pt-32">
       <div className="text-center font-semibold text-5xl mt-8">
         <h1>About KMF</h1>
       </div>
